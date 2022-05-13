@@ -1,0 +1,46 @@
+
+*********************************** RUN 'git init'
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /home/vasvas/work/git-tutorial/.git/
+
+*********************************** RUN 'ls -lta .git'
+total 40
+drwxrwxr-x 7 vasvas vasvas 4096 мая 12 18:27 .
+-rw-rw-r-- 1 vasvas vasvas   92 мая 12 18:27 config
+-rw-rw-r-- 1 vasvas vasvas   23 мая 12 18:27 HEAD
+drwxrwxr-x 2 vasvas vasvas 4096 мая 12 18:27 hooks
+drwxrwxr-x 4 vasvas vasvas 4096 мая 12 18:27 objects
+drwxrwxr-x 4 vasvas vasvas 4096 мая 12 18:27 refs
+drwxrwxr-x 3 vasvas vasvas 4096 мая 12 18:27 ..
+drwxrwxr-x 2 vasvas vasvas 4096 мая 12 18:27 branches
+-rw-rw-r-- 1 vasvas vasvas   73 мая 12 18:27 description
+drwxrwxr-x 2 vasvas vasvas 4096 мая 12 18:27 info
+
+*********************************** RUN 'du -hs .git'
+116K	.git
+
+*********************************** RUN 'cat .git/HEAD'
+ref: refs/heads/master
+
+*********************************** RUN 'ls -lta .git/objects'
+total 16
+drwxrwxr-x 4 vasvas vasvas 4096 мая 12 18:27 .
+drwxrwxr-x 7 vasvas vasvas 4096 мая 12 18:27 ..
+drwxrwxr-x 2 vasvas vasvas 4096 мая 12 18:27 info
+drwxrwxr-x 2 vasvas vasvas 4096 мая 12 18:27 pack
+
+*********************************** RUN 'ls -lta .git/refs'
+total 16
+drwxrwxr-x 4 vasvas vasvas 4096 мая 12 18:27 .
+drwxrwxr-x 7 vasvas vasvas 4096 мая 12 18:27 ..
+drwxrwxr-x 2 vasvas vasvas 4096 мая 12 18:27 heads
+drwxrwxr-x 2 vasvas vasvas 4096 мая 12 18:27 tags
