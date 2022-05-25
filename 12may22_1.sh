@@ -17,3 +17,4 @@ DEFAULT_BRANCH_FILE=HEAD
 run "ls -lta $GIT_FOLDER/$DATA"
 run "ls -lta $GIT_FOLDER/refs"
 
+user1: работа в ветке master
