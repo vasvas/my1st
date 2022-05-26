@@ -46,3 +46,4 @@ drwxrwxr-x 2 vasvas vasvas 4096 мая 12 18:27 heads
 drwxrwxr-x 2 vasvas vasvas 4096 мая 12 18:27 tags
 It's a new day for git
 user1: работа в ветке master
+user2: работа в ветке новая-ветка
